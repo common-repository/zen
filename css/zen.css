@@ -1,0 +1,191 @@
+#zen-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background: #fff;
+	z-index: 9999;
+}
+	#zen {
+		width: 600px;
+		min-width: 600px;
+		margin: 2% auto;
+		height: 96%;
+	}
+		#zen input[type=text],
+		#zen #titlediv #title,
+		#zen textarea {
+			outline: none;	
+		}
+		#zen #content {
+			/*color: #020202;*/
+			margin-bottom: 20px;
+			display: block;
+			height: 60%;
+			min-height: 200px;
+			max-height: 600px;
+		}
+		#zen #categorydiv,
+		#zen #tagsdiv-post_tag {
+			width: 47%;
+			margin: 0 auto;
+			text-align: center;
+			padding: 0 0.5em 1em 0.5em;
+		}
+		#zen .taghint {
+			margin:14px 0 -19px -25px;
+		}
+		#zen h3.hndle {
+			background: none;
+			cursor: default;
+		}
+		#zen #save-action {
+			float: left;
+		}
+	#zen-container #zen-theme_info {
+		position: absolute;
+		bottom: 3px;
+		right: 3px;
+		font-size: 9px;
+		line-height: 13px;
+		text-align: right;
+	}
+		#zen-container #zen-theme_info span {
+			display: block;
+		}
+		#zen-container #zen-theme_info #zen-theme_name {
+			font-weight: bold;
+			display: inline;
+		}
+		#zen-container #zen-theme_info #zen-theme_author {
+			display: inline;
+		}
+		#zen-container #zen-theme_info #zen-theme_credit {
+		
+		}
+	#zen-container #zen-next_theme {
+		position: absolute;
+		top: 3px;
+		right: 3px;
+		font-size: 9px;
+		line-height: 13px;
+		text-align: right;
+	}
+		
+/** Actions **/
+.zen-deactivate {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: transparent url(../images/close-x.png) no-repeat top left;
+	width: 30px;
+	height: 30px;
+	text-indent:-9999px;
+}
+.zen-activate {
+	background-color: #EAF2FA;
+	text-align: center;
+}
+	.zen-activate a,
+	.zen-activate a:visited {
+		display: block;
+		padding: 7px 9px;
+	}
+	.zen-activate a:active,
+	.zen-activate a:hover {
+	
+	}
+
+/** Themes **/
+
+/** For a translucent background: transparent url(../images/pixel.png) !important; */
+#zen-container {
+	-moz-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	-ms-background-size: 100% auto;
+	background-size: 100% auto;
+}
+
+#zen-container.zen-dark {
+	background: #464646 !important;
+}
+	#zen-container.zen-dark input[type=text],
+	#zen-container.zen-dark #titlediv #title,
+	#zen-container.zen-dark textarea {
+		background: transparent url(../images/pixel_15.png);
+		border: none;
+		color: #ccc !important;
+	} 
+#zen-container.zen-light {
+	background: #e5e5e5;
+	color: #d6d6d6;
+}
+	#zen-container.zen-light input[type=text],
+	#zen-container.zen-light #titlediv #title,
+	#zen-container.zen-light textarea {
+		
+	}
+#zen-container.zen-papyrus {
+	background: url(../images/bg/bg-script.jpg) no-repeat fixed;
+}
+	#zen-container.zen-papyrus input[type=text],
+	#zen-container.zen-papyrus #titlediv #title,
+	#zen-container.zen-papyrus textarea {
+		border: none;
+		background: transparent url(../images/pixel_15.png);
+		font-family: Georgia, serif;
+	}
+#zen-container.zen-papyrus-lite {
+	background: #fffaf1;
+}
+	#zen-container.zen-papyrus-lite input[type=text],
+	#zen-container.zen-papyrus-lite #titlediv #title,
+	#zen-container.zen-papyrus-lite textarea {
+		border: none;
+		background: #FEFAFA;
+		font-family: Georgia, serif;
+	}
+#zen-container.zen-terminal {
+	background:#000000;
+}
+	#zen-container.zen-terminal input[type=text],
+	#zen-container.zen-terminal #titlediv #title,
+	#zen-container.zen-terminal textarea {
+		background-color:#111;
+		border: 1px solid #000000;
+		font-family: Courier New, Courier, monospace;
+		color: #00f91d;
+	}
+#zen-container.zen-sunset {
+	background-image: url(../images/bg/yacht-harbour.jpg);
+}
+	#zen-container.zen-sunset input[type=text],
+	#zen-container.zen-sunset #titlediv #title,
+	#zen-container.zen-sunset textarea {
+		background: transparent url(../images/pixel_15.png);
+		border-color: transparent;
+	}
+#zen-container.zen-sky {
+	background-image: url(../images/bg/sea-and-sky.jpg);
+}
+	#zen-container.zen-sky input[type=text],
+	#zen-container.zen-sky #titlediv #title,
+	#zen-container.zen-sky textarea {
+		background: transparent url(../images/pixel_15.png);
+		border-color: transparent;
+	}
+#zen-container.zen-foiled {
+	background-image: url(../images/bg/foiled-again.jpg);
+}
+	#zen-container.zen-foiled input[type=text],
+	#zen-container.zen-foiled #titlediv #title,
+	#zen-container.zen-foiled textarea {
+		background: transparent url(../images/pixel_15.png);
+		background: rgba(255, 255, 255, 0.4);
+		border-color: transparent;
+		border: none;
+		font-family: Georgia, Serif;
+	}
+	#zen-container.zen-foiled textarea {
+		font-size: 16px;
+	}

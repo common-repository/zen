@@ -1,0 +1,38 @@
+.zen-keyboard_shortcuts {
+}
+	.zen-keyboard_shortcut {
+		width: 10px;
+		background: #DFDFDF;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px
+		border-radius: 5px;
+		border:1px solid #D3D3D3;
+		padding:3px 6px;
+		display: block;
+		float: left;
+		text-align: center;
+		margin-right: 5px;
+	}
+
+#zen-themes {
+	overflow: hidden;
+	line-height: 14px;
+}
+	#zen-themes .zen-theme {
+		width: 200px;
+		height: 150px;
+		float: left;
+		margin: 0 10px 10px 0;
+		text-align: center;
+	}
+		#zen-themes .zen-theme_thumbnail {
+			width: 150px;
+			margin: 0 auto;
+			display: block;
+		}
+		#zen-themes .zen-theme_name {
+			display: block;
+		}
+		#zen-themes .zen-theme_author {
+			font-size: 10px;
+		}
